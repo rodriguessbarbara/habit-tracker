@@ -3,19 +3,19 @@ Esse é um projeto desenvolvido com NodeJs (Back-end), ReactJs (Front-end) e Rea
 A aplicação de monitoramento de hábitos permite navegar entre os dias do calendário, exibindo os hábitos e sendo possível adicionar novos aos próximos dias.
 
 #### Nesse projeto eu trabalhei com as tecnologias:
-  Back-End:
+  #### Back-End:
   - NodeJS
   - TypeScript
   - Fastify
   - Prisma
 
-  Front-End
+  #### Front-End
   - ReactJS
   - TypeScript
   - TailwindCSS
   - Radix UI lib
 
-    Mobile
+ #### Mobile
   - React Native
   - TypeScript
   - NativeWind
