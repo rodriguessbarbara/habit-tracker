@@ -27,21 +27,21 @@ A aplicação de monitoramento de hábitos permite navegar entre os dias do cale
    git@github.com:rodriguessbarbara/habit-tracker.git
 
   #### BackEnd
-1.    ```sh
-   cd server
-2. Rodar `npm install` em seu terminal;
-3. Rodar `npx prisma migrate deploy` em seu terminal;
+  Em seu terminal:
+1. `cd server`
+2. Rodar `npm install` ;
+3. Rodar `npx prisma migrate deploy` ;
 4. Rodar `npm run dev`;
 
   #### FrontEnd
-1.    ```sh
-   cd web
+  Em seu terminal:
+1. `cd web`
 2. Rodar `npm install` em seu terminal;
 3. Rodar `npm run dev` e abrir [http://localhost:5173](http://localhost:5173 em seu navegador.
 
   #### Mobile
-1.    ```sh
-   cd mobile
+  Em seu terminal:
+1. `cd mobile`
 2. Rodar `npm install` em seu terminal;
 3. Rodar `npm start` ou `npx expo start`.
 
