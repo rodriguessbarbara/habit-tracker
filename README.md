@@ -3,19 +3,19 @@ Esse é um projeto desenvolvido com NodeJs (Back-end), ReactJs (Front-end) e Rea
 A aplicação de monitoramento de hábitos permite navegar entre os dias do calendário, exibindo os hábitos e sendo possível adicionar novos aos próximos dias.
 
 #### Nesse projeto eu trabalhei com as tecnologias:
-  Back-End:
+  #### Back-End:
   - NodeJS
   - TypeScript
   - Fastify
   - Prisma
 
-  Front-End
+  #### Front-End
   - ReactJS
   - TypeScript
   - TailwindCSS
   - Radix UI lib
 
-    Mobile
+ #### Mobile
   - React Native
   - TypeScript
   - NativeWind
@@ -27,21 +27,21 @@ A aplicação de monitoramento de hábitos permite navegar entre os dias do cale
    git@github.com:rodriguessbarbara/habit-tracker.git
 
   #### BackEnd
-1.    ```sh
-   cd server
-2. Rodar `npm install` em seu terminal;
-3. Rodar `npx prisma migrate deploy` em seu terminal;
+  Em seu terminal:
+1. `cd server`
+2. Rodar `npm install` ;
+3. Rodar `npx prisma migrate deploy` ;
 4. Rodar `npm run dev`;
 
   #### FrontEnd
-1.    ```sh
-   cd web
+  Em seu terminal:
+1. `cd web`
 2. Rodar `npm install` em seu terminal;
 3. Rodar `npm run dev` e abrir [http://localhost:5173](http://localhost:5173 em seu navegador.
 
   #### Mobile
-1.    ```sh
-   cd mobile
+  Em seu terminal:
+1. `cd mobile`
 2. Rodar `npm install` em seu terminal;
 3. Rodar `npm start` ou `npx expo start`.
 
