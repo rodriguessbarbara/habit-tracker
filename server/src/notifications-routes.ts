@@ -7,13 +7,13 @@ const privateKey = 'eqkKFY2un-SQUWqR75AiZ1er4Xcb43YTOUUpE9547MI';
 WebPush.setVapidDetails('http://localhost:3333', publicKey, privateKey);
 
 export async function notificationRoutes(app: FastifyInstance) {
- app.get('push/public_key', () => {
+ app.get('/push/public_key', () => {
   return {
     publicKey
   }
  })
 
- app.post('/push/register', (reqiest, reply) => {
+ app.post('/push/register', (request, reply) => {
   return reply.status(201).send()
  })
 
