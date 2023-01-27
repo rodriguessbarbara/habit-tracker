@@ -1,5 +1,5 @@
-import './src/lib/dayjs';
-import { StatusBar } from "react-native";
+import "./src/lib/dayjs";
+import { StatusBar, Button } from "react-native";
 import {
   useFonts,
   Inter_400Regular,
@@ -7,9 +7,19 @@ import {
   Inter_700Bold,
   Inter_800ExtraBold,
 } from "@expo-google-fonts/inter";
+import * as Notifications from "expo-notifications";
 
 import { Loading } from "./src/components/Loading";
-import { Routes } from './src/routes';
+import { Routes } from "./src/routes";
+import { useEffect } from "react";
+
+Notifications.setNotificationHandler({
+  handleNotification: async () => ({
+    shouldShowAlert: true,
+    shouldPlaySound: false,
+    shouldSetBadge: false,
+  })
+})
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -18,6 +28,23 @@ export default function App() {
     Inter_700Bold,
     Inter_800ExtraBold,
   });
+
+  useEffect(() => {
+    async function scheduleNotification() {
+      const trigger = new Date(Date.now());
+      trigger.setMinutes(trigger.getMinutes() + 1);
+  
+      await Notifications.scheduleNotificationAsync({
+        content: {
+          title: "Oi, queridx 🙃",
+          body: "Cumpriu algum hábito hoje?",
+        },
+        trigger,
+      });
+    }
+    scheduleNotification();
+  }, [])
+
 
   if (!fontsLoaded) return <Loading />;
 
