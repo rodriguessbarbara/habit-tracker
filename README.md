@@ -1,6 +1,7 @@
 # Habit Tracker | Controle de hábitos
-Esse é um projeto desenvolvido com NodeJs (Back-end), ReactJs (Front-end) e React-Native (Mobile), a partir do intensivo 'Next Level Week' da RocketSeat.
-A aplicação de monitoramento de hábitos permite navegar entre os dias do calendário, exibindo os hábitos e sendo possível adicionar novos aos próximos dias.
+Essa é uma aplicação de monitoramento de hábitos que permite navegar entre os dias do calendário, exibindo os hábitos e sendo possível adicionar novos aos próximos dias.
+ESte projeto foi desenvolvido com NodeJs (Back-end), ReactJs (Front-end) e React-Native (Mobile), a partir do intensivo 'Next Level Week' da plataforma de programação RocketSeat.
+
 
 #### Nesse projeto eu trabalhei com as tecnologias:
   #### Back-End:
